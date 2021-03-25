@@ -32,6 +32,7 @@
         android:summary="@string/double_tap_power_for_camera_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController"
-        app:allowDividerAbove="true" />
+        app:allowDividerAbove="true"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
